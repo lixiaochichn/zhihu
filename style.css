@@ -1,0 +1,26 @@
+/*style.css*/
+
+.img_logo {
+    margin: auto;
+    width: 96px;
+    height: 44.39px;
+}
+
+body {
+    margin: auto;
+    background: #f7fafc;
+    width: 360px;
+    height: 640px;
+}
+
+.header {
+    margin: auto;
+    width: 300px;
+    height: 92.391px; 
+    color: #555;   
+
+}
+
+#slogan {
+    font-size: 10px;
+}
