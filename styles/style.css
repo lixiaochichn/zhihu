@@ -1,0 +1,151 @@
+body {
+    font-family: 'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif;
+    color: #555;
+    width: 100%;
+    min-width: 320px;
+    background-color: #f7fafc;
+
+}
+
+.index-header{
+    text-align: center;
+    padding: 0;
+}
+
+.index-main-body {
+    padding: 30px 0 102px; 
+    text-align: center;
+}
+
+.zhihulogo {
+    width: 96px;
+    height: 44.39px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 18px;
+    /*text-align: center;*/
+    color: rgb(85, 85, 85);
+    margin: 30px 0 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.log {
+    text-align: center;
+    font-size: 0;
+    margin-bottom: 10px;
+
+}
+
+.activea,.activeb {
+    display: inline-block;
+    line-height: 35px;
+    font-size: 18px;
+    width: 72px;
+    height: 35px;
+    text-decoration: none;
+    /*background-color: red;*/
+}
+.activea {
+    color: #0f88eb;
+}
+.activeb {
+    color: rgb(85, 85, 85);
+}
+.navs-slider-bar {
+    position: absolute;
+    background-color: #0f88eb;
+    margin: 0 0.8em;
+    width: 2.4em;
+    height: 2px;
+    font-size: 1em;
+}
+
+.name,.telno,.pass {
+    width: 280px;
+    height: 44px;
+    border: 0;
+    outline: none;
+    font-size: 14px;
+    padding-left:15px;
+    background-color: white;
+    border-color: #c0c0c0;
+    border-width: 1px;
+    border-style: solid;
+}
+
+::-webkit-input-placeholder {
+    color: #d3d3d3;
+}
+
+.keyin {
+    text-align: center;
+    /*background-color: black;*/
+    margin-bottom: 20px;
+}
+
+.name,.telno {
+    border-bottom: 0;
+}
+.telno,.pass {
+    border-top-color: #dcdcdc; 
+}
+.name {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+}
+.pass {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+.bot {
+    display: inline-block;
+    width: 300px;
+    height: 41px;
+    line-height: 41px;
+    border: 0;
+    background-color: #0f88eb;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.tips {
+    margin-top: 21px;
+    font-size: 13px;
+    color: rgb(153, 153, 153);
+
+}
+.tiplink {
+    color: rgb(105, 142, 191);
+    font-size: 13px;
+    text-decoration: none;
+}
+.botapp {
+    display: inline-block;
+    width: 300px;
+    height: 41px;
+    line-height: 41px;
+    border-width: 1px;
+    border-color: rgb(150, 194, 233);
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(95, 166, 229);
+    margin-top: 41px;
+}
+.footer {
+    color: rgb(174, 189, 201);
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 42px;
+}
